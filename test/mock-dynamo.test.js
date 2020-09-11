@@ -47,6 +47,7 @@ beforeAll(async (done) => {
 
 describe("the module", () => {
     it('should insert item into table', async () => {
+        console.log(config)
         await ddb.put({ TableName: 'files', Item: { id: '1', hello: 'world' } }).promise();
 
         const { Item } = await ddb.get({ TableName: 'files', Key: { id: '1' } }).promise();

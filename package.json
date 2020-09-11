@@ -7,6 +7,8 @@
     "@shelf/jest-dynamodb": "^1.7.0",
     "aws-sdk": "^2.642.0",
     "aws-sdk-mock": "^5.1.0",
+    "axios": "^0.19.2",
+    "axios-mock-adapter": "^1.18.1",
     "dynamodb-local": "0.0.31",
     "jest": "^25.1.0"
   },
